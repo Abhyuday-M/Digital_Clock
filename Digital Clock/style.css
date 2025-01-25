@@ -1,0 +1,41 @@
+body{
+    background: #131313;
+}
+
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    font-family:'Times New Roman', Times, serif
+}
+
+.time{
+    background: #090909;
+    color: #ffffff;
+    font-size: 100px;
+    width: 200px;   
+    margin: 0px 10px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.heading{
+    color: #f5f5f5f5;
+    font-size:x-large;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.heading:hover{
+    color: #f5f5f5f5;
+    font-size:xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
